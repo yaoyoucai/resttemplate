@@ -1,0 +1,5 @@
+server:
+  port: 8080
+
+#请求url
+url: http://baidu.com
