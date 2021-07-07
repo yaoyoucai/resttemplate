@@ -26,7 +26,7 @@ public class TestController {
 
     @PostMapping("post")
     public void testPost() {
-        Object value = restTemplate.postForObject(url, new Object().toString(), Object.class);
+        String value = restTemplate.postForObject(url, new Object().toString(), String.class);
         System.out.println(value);
     }
 }
